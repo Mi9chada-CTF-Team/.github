@@ -1,0 +1,73 @@
+name: Documentation Improvement
+description: Improve documentation, guides, or training materials
+title: "[DOCS] Short description of improvement"
+labels: ["documentation", "good first issue"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve our documentation! This is a great way to contribute if you're new to the team.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: "Type of Documentation"
+      description: "What kind of documentation needs improvement?"
+      options:
+        - "README files"
+        - "Training guides / tutorials"
+        - "Tool documentation"
+        - "Challenge descriptions"
+        - "Writeup formatting"
+        - "Code comments"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: "Location"
+      description: "Where is the documentation that needs improvement?"
+      placeholder: |
+        Repository: training/
+        File: web/xss-basics/README.md
+        Section: "Payload Examples"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: "Current Issue"
+      description: "What's wrong or missing?"
+      placeholder: |
+        - Outdated commands (uses Python 2 syntax)
+        - Missing explanation of key concepts
+        - Typos or grammatical errors
+        - Unclear instructions
+        - Missing examples
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: "Proposed Changes"
+      description: "How would you improve it?"
+      placeholder: "Add step-by-step screenshots for the XSS payload testing process. Include common browser console commands. Update code examples to Python 3."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: "Contribution"
+      options:
+        - label: "I'm willing to make these changes myself"
+          required: false
+        - label: "I can provide examples or screenshots"
+          required: false
+        - label: "This is my first contribution (welcome!)"
+          required: false

@@ -1,0 +1,85 @@
+name: Writeup Request
+description: Request a writeup for a specific competition or challenge
+title: "[WRITEUP] Competition Name - Challenge Category"
+labels: ["writeup", "documentation"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request a detailed writeup for a CTF competition or specific challenge.
+        
+        ⚠️ **Only request writeups for competitions that have ENDED.**
+
+  - type: input
+    id: competition
+    attributes:
+      label: "Competition Name"
+      description: "Full name of the CTF competition"
+      placeholder: "UofTCTF 2026, ASIS CTF Finals 2025, etc."
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: "Competition Date"
+      description: "When did the competition take place?"
+      placeholder: "February 2026"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: "Competition Status"
+      description: "Has the competition ended?"
+      options:
+        - "Ended (safe to publish writeup)"
+        - "Ongoing (wait until finished)"
+        - "NDA / Private (cannot publish)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: challenges
+    attributes:
+      label: "Specific Challenges (Optional)"
+      description: "List specific challenges you'd like covered, or leave blank for full competition writeup"
+      placeholder: |
+        - Web: "Login Bypass"
+        - Crypto: "RSA Challenge"
+        - Pwn: "Buffer Overflow 101"
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional Context"
+      description: "Why is this writeup important? What should it focus on?"
+      placeholder: "This competition had unique blockchain challenges that would be great learning material for junior members."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: participation
+    attributes:
+      label: "Team Participation"
+      options:
+        - label: "Mi9chada participated in this competition"
+          required: false
+        - label: "I have access to solutions/flags and can help write this"
+          required: false
+        - label: "I'm requesting this as a learning resource for training"
+          required: false
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: "Acknowledgements"
+      options:
+        - label: "This competition has ended and writeups won't violate any rules"
+          required: true
+        - label: "I've checked existing writeups to avoid duplicates"
+          required: true

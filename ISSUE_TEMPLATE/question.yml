@@ -1,0 +1,62 @@
+name: General Question
+description: Ask a question about the project, tools, or team
+title: "[QUESTION] Short question summary"
+labels: ["question", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a question? Ask away! We'll do our best to help.
+        
+        **Before submitting:** Check our [README](../README.md) and existing issues to see if your question has already been answered.
+
+  - type: dropdown
+    id: topic
+    attributes:
+      label: "Question Topic"
+      description: "What is your question about?"
+      options:
+        - "Getting started / setup"
+        - "Using a specific tool or script"
+        - "Training materials"
+        - "Competition participation"
+        - "Team membership / recruitment"
+        - "Contribution process"
+        - "Technical issue (use Bug Report instead)"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your Question"
+      description: "Be as specific as possible"
+      placeholder: "How do I set up the training environment on Windows? The setup.sh script seems to be for Linux only."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional Context"
+      description: "Any other information that might help us answer?"
+      placeholder: |
+        - I'm a UM6P student interested in joining
+        - I've already tried [specific steps]
+        - My environment: [OS, tools installed, etc.]
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: research
+    attributes:
+      label: "Before Asking"
+      options:
+        - label: "I've read the README and relevant documentation"
+          required: true
+        - label: "I've searched existing issues for similar questions"
+          required: true
+        - label: "This isn't a bug report (use Bug Report template instead)"
+          required: true

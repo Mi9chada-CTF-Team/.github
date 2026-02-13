@@ -1,0 +1,136 @@
+name:  Challenge Submission
+description: Submit a new challenge for training or internal CTFs
+title: "[CHALLENGE] Category - Challenge Name"
+labels: ["challenge", "training"]
+assignees:
+  - HaniMo137
+  - SpaceAttay3154518
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit an original challenge for our training repository or internal CTF events.
+        
+         This will undergo security review before acceptance.
+
+  - type: input
+    id: name
+    attributes:
+      label: "Challenge Name"
+      description: "Short, descriptive name"
+      placeholder: "SQL Injection 101, Buffer Overflow Basic, etc."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      description: "What type of challenge is this?"
+      options:
+        - "Web"
+        - "Pwn / Binary Exploitation"
+        - "Reverse Engineering"
+        - "Cryptography"
+        - "Forensics"
+        - "OSINT"
+        - "Miscellaneous"
+        - "Blockchain"
+        - "Hardware / IoT"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: "Difficulty Level"
+      description: "Estimated difficulty for UM6P students"
+      options:
+        - "Beginner (0-6 months experience)"
+        - "Intermediate (6-12 months experience)"
+        - "Advanced (1+ years experience)"
+        - "Expert (Competition-level)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Challenge Description"
+      description: "What will players see? Include any story/context."
+      placeholder: |
+        "Our web application has a login page, but the developer made a critical mistake. Can you bypass authentication and access the admin panel?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: files
+    attributes:
+      label: "Challenge Files"
+      description: "List files you're providing (source code, binaries, Dockerfile, etc.)"
+      placeholder: |
+        - challenge.py (Flask web app)
+        - Dockerfile (for deployment)
+        - README.md (setup instructions)
+        - solution/exploit.py (solution script)
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Solution Overview"
+      description: "Brief explanation of how to solve it (detailed solution goes in separate file)"
+      placeholder: "The login form is vulnerable to SQL injection via the username parameter. Use UNION-based injection to extract admin credentials."
+    validations:
+      required: true
+
+  - type: textarea
+    id: learning
+    attributes:
+      label: "Learning Objectives"
+      description: "What should players learn from this challenge?"
+      placeholder: |
+        - Understand SQL injection fundamentals
+        - Practice UNION-based injection techniques
+        - Learn to use sqlmap for automation
+        - Recognize common authentication vulnerabilities
+    validations:
+      required: true
+
+  - type: input
+    id: time
+    attributes:
+      label: "Estimated Solve Time"
+      description: "How long should this take an average player?"
+      placeholder: "15-30 minutes"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: security
+    attributes:
+      label: "Security Checklist"
+      options:
+        - label: "No hardcoded credentials or sensitive data"
+          required: true
+        - label: "Challenge is contained (Docker/restricted environment)"
+          required: true
+        - label: "No unintended remote code execution risks"
+          required: true
+        - label: "I've tested this challenge in isolation"
+          required: true
+        - label: "Solution doesn't rely on unintended vulnerabilities"
+          required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: "Contribution Details"
+      options:
+        - label: "I'm willing to maintain this challenge long-term"
+          required: false
+        - label: "I can provide hints if players get stuck"
+          required: false
+        - label: "This is an original challenge (not copied from elsewhere)"
+          required: true

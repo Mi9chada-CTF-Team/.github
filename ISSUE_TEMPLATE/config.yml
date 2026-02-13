@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Team Email
+    url: mailto:mi9chada-ctf@outlook.fr
+    about: Contact the team leads directly for sensitive matters
+  - name: CTFtime Profile
+    url: https://ctftime.org/team/418761
+    about: View our competition history and upcoming events
