@@ -117,10 +117,3 @@ Community leaders will follow these steps when addressing violations:
 
 ---
 
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 2.1, available at [https://www.contributor-covenant.org/version/2/1/code_of_conduct.html](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html).
-
-For answers to common questions about this code of conduct, see the [FAQ](https://www.contributor-covenant.org/faq).
-
----
