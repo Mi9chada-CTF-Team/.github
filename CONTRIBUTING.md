@@ -4,7 +4,7 @@ Thank you for your interest in contributing to **Mi9chada** ! We welcome contrib
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Code of Conduct](#-code-of-conduct)
 - [How to Contribute](#-how-to-contribute)
@@ -20,7 +20,7 @@ Thank you for your interest in contributing to **Mi9chada** ! We welcome contrib
 
 ---
 
-## 🤝 Code of Conduct
+##  Code of Conduct
 
 By participating in this project, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md):
 - Be respectful and inclusive
@@ -33,14 +33,14 @@ Violations will result in contribution privileges being revoked.
 
 ---
 
-## 🚀 How to Contribute
+##  How to Contribute
 
-### ✍️ Writeups
+###  Writeups
 
 We accept detailed writeups for competitions where:
-- ✅ The competition has **ended** (no ongoing events)
-- ✅ Solutions don't violate competition rules (e.g., no NDAs)
-- ✅ Content is original or properly attributed
+-  The competition has **ended** (no ongoing events)
+-  Solutions don't violate competition rules (e.g., no NDAs)
+-  Content is original or properly attributed
 
 **Required structure** (`writeups/_posts/YYYY-MM-DD-competition-name.md`):
 ```markdown
@@ -256,7 +256,7 @@ All significant contributors will be acknowledged in our annual report to UM6P C
 
 ---
 
-## 📜 License
+##  License
 
 By contributing, you agree that your work will be licensed under the [MIT License](LICENSE) unless otherwise specified in the file header.
 
