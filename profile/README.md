@@ -105,7 +105,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for style guidelines and review process.
 - **CTFtime**: https://ctftime.org/team/418761
 - **Affiliation**: UM6P College of Computing, Benguerir & Rabat, Morocco
 - **Social**:
-  - [LinkedIn](https://www.linkedin.com/company/um6pcc)
+  - [LinkedIn](https://www.linkedin.com/company/mi9chada)
 - **Email**: *[mi9chada-ctf@outlook.fr]*
 
 ---
