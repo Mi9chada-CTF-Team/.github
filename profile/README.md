@@ -2,7 +2,7 @@
 
 [![CTFtime Profile](https://img.shields.io/badge/CTFtime-Profile-0066cc?logo=ctftime&logoColor=white)](https://ctftime.org/team/418761)
 [![Global Rank](https://ctftime.org/api/v1/teams/418761/badge.svg)](https://ctftime.org/team/418761)
-[![Morocco Rank #3](https://img.shields.io/badge/Morocco-%231-0066cc?logo=flag-icon&logoColor=white)](https://ctftime.org/stats/MA)
+[![Morocco Rank #3](https://img.shields.io/badge/Morocco-%233-0066cc?logo=flag-icon&logoColor=white)](https://ctftime.org/stats/MA)
 [![UM6P](https://img.shields.io/badge/UM6P-College_of_Computing-0047AB?logo=github)](https://um6p.ma)
 
 > **Mi9chada** — Morocco's premier student cybersecurity team from Mohammed VI Polytechnic University (UM6P), competing at the highest level in global Capture The Flag (CTF) competitions.
