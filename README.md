@@ -1,59 +1,61 @@
-
-# 🛡️ Mi9chada CTF Team
+# Mi9chada CTF Team
 
 [![CTFtime Profile](https://img.shields.io/badge/CTFtime-Profile-0066cc?logo=ctftime&logoColor=white)](https://ctftime.org/team/418761)
 [![Global Rank](https://ctftime.org/api/v1/teams/418761/badge.svg)](https://ctftime.org/team/418761)
-[![Morocco Rank #1](https://img.shields.io/badge/Morocco-%231-0066cc?logo=flag-icon&logoColor=white)](https://ctftime.org/stats/MA)
-[![UM6P](https://img.shields.io/badge/UM6P-College_of_Computing-0047AB?logo=github)](https://um6p.ac.ma)
+[![Morocco Rank #3](https://img.shields.io/badge/Morocco-%231-0066cc?logo=flag-icon&logoColor=white)](https://ctftime.org/stats/MA)
+[![UM6P](https://img.shields.io/badge/UM6P-College_of_Computing-0047AB?logo=github)](https://um6p.ma)
 
 > **Mi9chada** — Morocco's premier student cybersecurity team from Mohammed VI Polytechnic University (UM6P), competing at the highest level in global Capture The Flag (CTF) competitions.
 
 ---
 
-## 🏆 Competition Results (Ranked by Performance)
+## 👥 Core Team Members
 
-| Competition | Year | Result | Participants | Category |
-|-------------|------|--------|--------------|----------|
-| **UofTCTF** | 2026 | 🥇 **1st Morocco** • **24th Global** | 1,550 teams | International |
-| **PascalCTF** | 2026 | 🥈 **15th Global** | Global field | International |
-| **ASIS CTF Finals** | 2025 | 🥇 **1st Morocco** • **2nd MENA** • **34th Global** | 476 teams | International Finals |
-| **LA CTF** | 2026 | 56th Global | Global field | International |
-| **IDEH CTF** (INPT) | 2025 | 🥈 **2nd & 4th National** | Morocco | National |
-| **Nullhat Morocco** (w/ HackerOne) | 2025 | 4th & 6th National | 40 teams | National |
-| **Kaspersky CTF** | 2025 | 38th Regional | 450 teams | MEA & Türkiye |
+| Specialization | Players |
+|----------------|---------|
+| **Binary Exploitation & Reverse Engineering** | [@HaniMo137](https://github.com/HaniMo137), [@SpaceAttay3154518](https://github.com/SpaceAttay3154518) |
+| **Web Security & Penetration Testing** | [@ayasqualli](https://github.com/ayasqualli), [@GougasseHamza](https://github.com/GougasseHamza) |
+| **Cryptography & Blockchain Security** | [@elEsquina](https://github.com/elEsquina) |
+| **Digital Forensics & Incident Response** | [@YahyaMansoub](https://github.com/YahyaMansoub) |
+| **OSINT** | All members |
 
+* Competition lineups are dynamically formed based on challenge categories, team size limit and member availability.*
+
+---
+
+##  Competition Results (Ranked by Performance)
+
+| Competition | Year | Result | Participants |
+|-------------|------|--------|--------------|
+| **UofTCTF** | 2026 | 🥇 **1st Morocco** • **24th Global** | 1,550 teams |
+| **PascalCTF** | 2026 | 🥈 **15th Global** | Global field |
+| **ASIS CTF Finals** | 2025 | 🥇 **1st Morocco** • **2nd MENA** • **34th Global** | 476 teams |
+| **LA CTF** | 2026 | 56th Global | Global field |
+| **IDEH CTF** (INPT) | 2025 | 🥈 **2nd & 4th National** | Morocco |
+| **Nullhat Morocco** (w/ HackerOne) | 2025 | 4th & 6th National | 40 teams |
+| **Kaspersky CTF** | 2025 | 38th Regional | 450 teams (MEA & Türkiye) |
 
 *Full history: [CTFtime Profile](https://ctftime.org/team/418761)*
 
 ---
 
-## 👥 Team
+## Repositories
 
-- **Affiliation**: UM6P College of Computing
+###  [`writeups`](https://github.com/Mi9chada-CTF-Team/writeups)
+Detailed solutions and post-mortems from competitions we've participated in  
 
-- **Specializations**:
-  - Binary Exploitation & Reverse Engineering: `@HaniMo137` and `@SpaceAttay3154518`
-  - Web Security & Penetration Testing: `@ayasqualli` and `@GougasseHamza`
-  - Cryptography & Blockchain Security: `elEsquina`
-  - Digital Forensics & Incident Response: `@YahyaMansoub`
-  - OSINT: All members
+###  [`training`](https://github.com/Mi9chada-CTF-Team/training)
+Structured learning paths, beginner-friendly challenges, and practice environments for new members  
 
-*Interested in joining? See [CONTRIBUTING.md](CONTRIBUTING.md) for recruitment details.*
+###  [`toolkit`](https://github.com/Mi9chada-CTF-Team/toolkit)
+Custom scripts, exploit templates, and automation utilities used during competitions  
 
----
-
-## 📦 Repositories
-
-| Repository | Purpose |
-|------------|---------|
-| `writeups` | Detailed solutions from competitions we've participated in |
-| `training` | Learning paths, challenge sets, and practice environments |
-| `toolkit` | Custom scripts, exploit templates, and automation utilities |
-| `challenges` | Original challenges created by our team for training/internal CTFs |
+###  [`challenges`](https://github.com/Mi9chada-CTF-Team/challenges)
+Original challenges created by our team for internal training sessions and university CTF events  
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone our training resources
@@ -63,7 +65,7 @@ git clone https://github.com/Mi9chada-CTF-Team/training.git
 cd training && ./setup.sh
 ```
 
-📚 **Learning Path for New Members**:
+**Learning Path for New Members**:
 1. Complete `/training/basics` modules (Linux, networking, Python)
 2. Solve beginner challenges in `/training/web` and `/training/crypto`
 3. Study our public [writeups](https://github.com/Mi9chada-CTF-Team/writeups)
@@ -72,7 +74,7 @@ cd training && ./setup.sh
 
 ---
 
-## 📅 Upcoming Competitions
+##  Upcoming Competitions
 
 We actively compete in:
 - Major international CTFs (DEF CON Quals, ASIS, SECCON, Hack.lu)
@@ -84,7 +86,7 @@ We actively compete in:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions from UM6P students and the security community:
 
@@ -98,12 +100,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for style guidelines and review process.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 - **CTFtime**: https://ctftime.org/team/418761
-- **Affiliation**: UM6P College of Computing, Benguerir, Morocco
+- **Affiliation**: UM6P College of Computing, Benguerir & Rabat, Morocco
 - **Social**:
-  - [LinkedIn @Mi9chada CTF Team](https://www.linkedin.com/company/mi9chada)
+  - [LinkedIn](https://www.linkedin.com/company/um6pcc)
 - **Email**: *[mi9chada-ctf@outlook.fr]*
 
 ---
@@ -116,4 +118,3 @@ Unless otherwise specified, all content is licensed under the [MIT License](LICE
 
 > 🔒 *"The only secure system is one that is powered off."* — Gene Spafford  
 > 💙 Proudly representing Morocco on the global cybersecurity stage since 2025
-```
