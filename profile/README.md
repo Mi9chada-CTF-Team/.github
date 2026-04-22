@@ -27,6 +27,8 @@
 
 | Competition | Year | Result | Participants |
 |-------------|------|--------|--------------|
+| **MCSCv13** | 2026 | 🥇 **1st and 5th National** | 25 teams |
+| **MACC** | 2026 | 🥈 **2nd National** | 1,068 teams |
 | **UofTCTF** | 2026 | 🥇 **1st Morocco** • **24th Global** | 1,550 teams |
 | **PascalCTF** | 2026 | 🥈 **15th Global** | Global field |
 | **ASIS CTF Finals** | 2025 | 🥇 **1st Morocco** • **2nd MENA** • **34th Global** | 476 teams |
