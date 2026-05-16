@@ -44,6 +44,10 @@ We pledge to act and interact in ways that contribute to an open, welcoming, div
 | **Opposing team asks for hint** | Decline politely: *"Good luck — see you on the scoreboard!"* |
 | **Competition has NDA** | Never publish writeups without explicit organizer permission |
 
+
+So you are actually reading them, right ? Here is the flag: ACM{s0_y0u_w4nn4_st4y_0ut_0f_th3_w4ll_0f_sh4m3?}
+
+
 ---
 
 ## Enforcement Responsibilities
